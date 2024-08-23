@@ -14,3 +14,27 @@ const personagemJose = {
     tipo: 'Arqueiro',
 }
 
+/*const personagem = {
+    nome: 'Ana',
+    vida: 9,
+    mana: 2,
+    level: 3,
+    tipo: 'flecha'
+}*/
+
+class Personagem{
+    nome
+    vida
+    mana
+    level
+    tipo
+    descricao
+}
+
+const personagemAna = new Personagem()
+personagemAna.nome = 'Ana'
+personagemAna.vida = 3
+personagemAna.mana = 1
+personagemAna.level= 2
+personagemAna.tipo = 'Mago'
+
