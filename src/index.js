@@ -1,5 +1,6 @@
 import { Personagem } from "./modules/personagem.js"
 import { PerersonagemView } from "./components/personagem-view.js"
+import { Mago } from "./modules/magos.js"
 
 /*const personagemPedrinho = {
     nome: 'Pedrinho',
@@ -55,11 +56,18 @@ personagemPedro.mana = 2
 personagemPedro.tipo = 'Arqueiro'
 personagemPedro.level = 2*/
 
+//const personagemJose = new Personagem('Jose', 1, 'Mago')
+//const personagemPedro = new Personagem('Pedro', 1, 'Arqueiro')
 
-const personagemJose = new Personagem('Jose', 1, 'Mago')
-const personagemPedro = new Personagem('Pedro', 1, 'Arqueiro')
+//const personagens = [personagemJose, personagemPedro]
 
-const personagens = [personagemJose,personagemPedro]
+//new PerersonagemView(personagens).render()
+//console.log(personagemJose.vida)
+//console.log(new Mago('gelo', 7, 9))
+
+const magoAntonio = new Mago('Antonio', 2, 'fogo', 4, 3)
+const magaJulia = new Mago('Júlia', 8, 'gelo', 7, 10)
+
+const personagens = [magoAntonio, magaJulia]
 
 new PerersonagemView(personagens).render()
-console.log(personagemJose.vida)
