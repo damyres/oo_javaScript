@@ -1,4 +1,5 @@
-const tipo = 0
+//const tipo = 0
+
 export class Personagem{
     nome
     vida
@@ -9,7 +10,7 @@ export class Personagem{
 
     obterInsignia(){
         if(this.level >= 5){
-            return `Implacavel ${tipo}`
+            return `Implacavel ${this.tipo}`
         }
         return `${this.tipo} iniciante`
     }
