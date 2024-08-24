@@ -62,3 +62,4 @@ const personagemPedro = new Personagem('Pedro', 1, 'Arqueiro')
 const personagens = [personagemJose,personagemPedro]
 
 new PerersonagemView(personagens).render()
+console.log(personagemJose.vida)
