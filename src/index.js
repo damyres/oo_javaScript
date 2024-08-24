@@ -45,6 +45,14 @@ personagemAna.nome = 'Ana'
 personagemAna.mana = 12
 personagemAna.vida = 7
 personagemAna.tipo = 'Mago'
-personagemAna.level= 8
+personagemAna.level = 8
 
-console.log(personagemAna.obterInsignia())
+const personagemJose = new Personagem()
+personagemJose.nome = 'José'
+personagemJose.mana = 3
+personagemJose.vida = 2
+personagemJose.tipo = 'Arqueiro'
+personagemJose.level = 2
+
+console.log(personagemAna.obterInsignia(),)
+console.log(personagemJose.obterInsignia())
