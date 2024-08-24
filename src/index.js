@@ -1,5 +1,6 @@
 import { Personagem } from "./modules/personagem.js"
-const personagemPedrinho = {
+
+/*const personagemPedrinho = {
     nome: 'Pedrinho',
     vida: 7,
     mana: 12,
@@ -15,13 +16,13 @@ const personagemJose = {
     tipo: 'Arqueiro',
 }
 
-/*const personagem = {
+const personagem = {
     nome: 'Ana',
     vida: 9,
     mana: 2,
     level: 3,
     tipo: 'flecha'
-}*/
+}
 
 /*class Personagem{
     nome
@@ -41,9 +42,9 @@ personagemAna.tipo = 'Mago' */
 
 const personagemAna = new Personagem()
 personagemAna.nome = 'Ana'
-personagemAna.vida = 3
-personagemAna.mana = 1
-personagemAna.level= 2
+personagemAna.mana = 12
+personagemAna.vida = 7
 personagemAna.tipo = 'Mago'
+personagemAna.level= 8
 
-console.log(personagemAna)
+console.log(personagemAna.obterInsignia())
