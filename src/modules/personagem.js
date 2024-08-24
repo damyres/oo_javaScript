@@ -1,6 +1,6 @@
 //const tipo = 0
 
-export class Personagem{
+export class Personagem {
     nome
     vida
     mana
@@ -8,8 +8,14 @@ export class Personagem{
     tipo
     descricao
 
-    obterInsignia(){
-        if(this.level >= 5){
+    constructor(nome, level, tipo) {
+        this.nome = nome,
+            this.level = level,
+            this.tipo = tipo
+    }
+
+    obterInsignia() {
+        if (this.level >= 5) {
             return `Implacavel ${this.tipo}`
         }
         return `${this.tipo} iniciante`

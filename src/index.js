@@ -54,5 +54,8 @@ personagemJose.vida = 2
 personagemJose.tipo = 'Arqueiro'
 personagemJose.level = 2
 
-console.log(personagemAna.obterInsignia(),)
+
+const personagem3= new Personagem('luis', 3, 'mago',2)
+console.log(personagemAna.obterInsignia())
 console.log(personagemJose.obterInsignia())
+console.log(personagem3.obterInsignia())
