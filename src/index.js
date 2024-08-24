@@ -1,6 +1,6 @@
 import { Personagem } from "./modules/personagem.js"
 import { PerersonagemView } from "./components/personagem-view.js"
-import { Mago } from "./modules/magos.js"
+import { Mago } from "./modules/mago.js"
 import { Arqueiro } from "./modules/arqueiro.js"
 
 /*const personagemPedrinho = {
