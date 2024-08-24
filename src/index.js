@@ -75,3 +75,4 @@ const arqueiroMagoChico = new ArqueiroMago('Chico', 7, 10, 'ar', 4, 8)
 const personagens = [magoAntonio, magaJulia, arqueiroBruno,arqueiroMagoChico]
 
 new PerersonagemView(personagens).render()
+console.log(Personagem.verificarVencedor(arqueiroBruno,magoAntonio))
